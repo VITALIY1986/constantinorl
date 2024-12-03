@@ -51,7 +51,7 @@ function Fashion({ preview, allPosts }) {
                                 Medic specialist 
                                     <br />
                                     în otorinolaringologie
-                                    <br />
+                        <br />
                                     <b className="text-xs text-white">Strada Pantelimon Halipa 14, Iași 700661</b>
                                 </p>
                             </Animate>
