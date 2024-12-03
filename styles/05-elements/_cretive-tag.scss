@@ -1,0 +1,67 @@
+.afc-creative-tag {
+    overflow: hidden;
+    position: relative;
+
+    .afc-creative-tag__text {
+        z-index: 2;
+        position: relative;
+    }
+}
+
+// Styles
+.afc-creative-tag {
+    &--style-1 {
+        color: $color-primary;
+        font-size: 14px;
+        display: inline-flex;
+        padding: 6px 24px;
+        border-radius: 60px;
+        letter-spacing: 1px;
+        background-color: rgba(255, 208, 0, 0.308);
+
+        &:before {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+            opacity: 0.1;
+            position: absolute;
+            background-color: $color-primary;
+        }
+    }
+    &--style-2 {
+        color: $color-heading;
+        display: inline-block;
+        position: relative;
+        padding-left: 75px;
+
+        &:before {
+            top: calc(50% - 1px);
+            left: 0;
+            width: 50px;
+            height: 2px;
+            content: "";
+            display: block;
+            position: absolute;
+            transform: translateY(-50%);
+            background-color: $color-text;
+        }
+
+        .elementor-align-center & {
+            padding-right: 75px;
+
+            &:after {
+                top: calc(50% + 2px);
+                right: 0;
+                width: 55px;
+                height: 2px;
+                content: "";
+                display: block;
+                position: absolute;
+                transform: translateY(-50%);
+                background-color: $color-text;
+            }
+        }
+    }
+}

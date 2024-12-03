@@ -1,0 +1,42 @@
+/*------------------------------------
+    Variables
+------------------------------------*/
+
+:root {
+    --baseline: 50px;
+    --baseline-el: 15px;
+
+    /* Font Family */
+    --font-body: "Josefin Sans", sans-serif;
+    --font-heading: "Playfair Display", serif;
+    --global--font-primary: var(--font-heading);
+    --global--font-secondary: var(--font-body);
+
+    /* Colors */
+    --global--color-black: #000;
+    --global--color-white: #fff;
+    --global--color-gray: #808080;
+    --global--color-dark-gray: #28303d;
+    --global--color-light-gray: #d3d3d3;
+    --global--color-silver: #c0c0c0;
+
+    --color-primary: #d10000;
+    --color-primary-hover: #ff0000;
+
+    --color-secondary: #22ffec;
+    --color-secondary-hover: #22ffec;
+
+    --global--color-primary: var(--color-primary);
+    --global--color-primary-hover: var(--color-primary-hover);
+    --global--color-secondary: var(--color-secondary);
+    --global--color-secondary-hover: var(--color-secondary-hover);
+
+    --global--color-text: #333;
+    --global--color-heading: var(--global--color-dark-gray);
+    --global--color-background: var(--global--color-white);
+    --global--color-border: #aaa;
+
+    // Animations
+    --animate-duration: 1500ms;
+    --animate-delay: 0.9s;
+}

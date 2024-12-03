@@ -1,0 +1,73 @@
+/*------------------------------------
+    Typography
+------------------------------------*/
+
+$font-base: var(--font-body);
+$font-body: var(--font-body);
+$font-heading: var(--font-heading);
+$font-primary: var(--font-heading);
+$font-secondary: var(--font-body);
+
+// Font Sizes
+$font-size-body: var(--global--font-size-body);
+$font-size-xs: var(--global--font-size-xs);
+$font-size-sm: var(--global--font-size-sm);
+$font-size-md: var(--global--font-size-md);
+$font-size-lg: var(--global--font-size-lg);
+$font-size-xl: var(--global--font-size-xl);
+$font-size-xxl: var(--global--font-size-xxl);
+$font-size-xxxl: var(--global--font-size-xxxl);
+
+// Headings
+$font-size-h6: var(--heading--font-size-h6);
+$font-size-h5: var(--heading--font-size-h5);
+$font-size-h4: var(--heading--font-size-h4);
+$font-size-h3: var(--heading--font-size-h3);
+$font-size-h2: var(--heading--font-size-h2);
+$font-size-h1: var(--heading--font-size-h1);
+
+// Line Height
+$line-height-body: var(--global--line-height-body);
+$line-height-heading: var(--global--line-height-heading);
+$line-height-page-title: var(--global--line-height-page-title);
+
+/*------------------------------------
+    Color Scheme
+------------------------------------*/
+
+$white: #fff;
+$black: #000;
+$gray: gray;
+$dark: $black;
+$light: $white;
+$light-gray: var(--global--color-light-gray);
+$dark-gray: var(--global--color-dark-gray);
+
+$color-primary: var(--global--color-primary);
+$color-primary-hover: var(--global--color-primary-hover);
+$color-secondary: var(--global--color-secondary);
+$color-secondary-hover: var(--global--color-primary-hover);
+
+$color-text: var(--global--color-text);
+$color-heading: var(--global--color-heading);
+$color-background: var(--global--color-background);
+$color-border: var(--global--color-border);
+
+/*------------------------------------
+    Shadow
+------------------------------------*/
+
+// Shadow
+$shadow-base: 0 4px 12px rgba(0, 0, 0, 0.07);
+
+/*------------------------------------
+    Spacing
+------------------------------------*/
+
+$spacing: 100px;
+$spacing-base: 100px;
+$pt-space: $spacing-base;
+$pb-space: $spacing-base;
+
+$baseline: var(--baseline);
+$baseline-el: var(--baseline-el);

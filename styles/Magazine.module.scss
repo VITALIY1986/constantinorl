@@ -1,0 +1,111 @@
+.magazine {
+    &__cover {
+        overflow: hidden;
+        position: relative;
+    }
+    &__footer {
+        p,
+        ul {
+            margin-bottom: 0;
+        }
+    }
+    &__loading {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+
+        @media (min-width: 1200px) {
+            width: 50%;
+            position: fixed;
+        }
+    }
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    flex-direction: column;
+
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
+}
+.col {
+    width: 100%;
+    position: relative;
+
+    &:first-child {
+        height: 100vh;
+    }
+
+    @media (min-width: 1200px) {
+        &:first-child {
+            width: 50%;
+            height: initial;
+        }
+        &:last-child {
+            width: 50%;
+        }
+    }
+}
+.cover {
+    width: 100%;
+    height: 100vh;
+    background: no-repeat center center / cover;
+
+    @media (min-width: 1200px) {
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+    }
+}
+
+// .section {
+//     &--magazine {
+//         &__row {
+//             display: flex;
+//             position: relative;
+//             flex-direction: column;
+
+//             @media (min-width: 1200px) {
+//                 flex-direction: row;
+//             }
+//         }
+
+//         &__col {
+//             width: 100%;
+//             position: relative;
+
+//             &:first-child {
+//                 height: 100vh;
+//                 overflow: hidden;
+//             }
+
+//             @media (min-width: 1200px) {
+//                 &:first-child {
+//                     width: 50%;
+//                 }
+//                 &:last-child {
+//                     width: 50%;
+//                 }
+//             }
+//         }
+
+//         &__cover {
+//             width: 100%;
+//             height: 100%;
+//             background: #000 no-repeat center center / cover;
+//         }
+
+//         &__content {
+//         }
+//     }
+// }

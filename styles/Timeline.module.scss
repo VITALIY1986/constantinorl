@@ -1,0 +1,94 @@
+.timeline {
+    padding-bottom: 15px;
+    border-left: 1px solid var(--global--color-border);
+
+    &__title {
+        top: -7px;
+        display: block;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 1;
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 45px;
+
+        &:before {
+            top: 7px;
+            left: -3px;
+            width: 6px;
+            height: 6px;
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            background-color: var(--global--color-primary);
+        }
+    }
+
+    ul {
+        li {
+            position: relative;
+            padding-left: 30px;
+
+            &:before {
+                top: 17px;
+                left: 0;
+                width: 30px;
+                height: 1px;
+                content: "";
+                display: block;
+                position: absolute;
+                background-color: var(--global--color-border);
+            }
+
+            .timeline__item {
+                &:before {
+                    top: 10px;
+                    left: 0;
+                    width: 24px;
+                    height: 1px;
+                    content: "";
+                    position: absolute;
+                    background-color: var(--global--color-border);
+                }
+
+                &__head {
+                    height: 69px;
+                    margin-top: 30px;
+
+                    .timeline__item__icon {
+                        width: 60px;
+                        height: 60px;
+                        position: relative;
+
+                        svg {
+                            top: 12px;
+                            left: 12px;
+                            position: relative;
+                        }
+
+                        &:before {
+                            width: 36px;
+                            height: 36px;
+                            z-index: -1;
+                            content: "";
+                            position: absolute;
+                            border-radius: 50%;
+                            margin-right: 30px;
+                            background-color: var(--global--color-primary);
+                        }
+                    }
+                    h5 {
+                    }
+                    h6 {
+                        padding-top: 6px;
+                    }
+                }
+                &__body {
+                    p {
+                        padding-right: 60px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.animate__fadeInUpXs {
+    animation-name: fadeInUpXs;
+}
+.animate__fadeInUpSm {
+    animation-name: fadeInUpSm;
+}
+
+.animate__fadeInUpMd {
+}
+
+.animate__fadeInLeftSm {
+    animation-name: fadeInLeftSm;
+}
+
+.animate__fadeInLeftMd {
+    animation-name: fadeInLeftSm;
+}
+
+.animate__fadeInRightSm {
+    animation-name: fadeInRightSm;
+}
+
+.animate__fadeInRightMd {
+    animation-name: fadeInRightMd;
+}
+
+.animate__fadeInDownSm {
+    animation-name: fadeInDownSm;
+}
+
+.animate__fadeInDownMd {
+    animation-name: fadeInDownMd;
+}
+
+@keyframes fadeInUpXs {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 30px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInUpSm {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInLeftSm {
+    from {
+        opacity: 0;
+        transform: translate3d(calc(-1 * 100px), 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInRightSm {
+    from {
+        opacity: 0;
+        transform: translate3d(100px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInDownSm {
+    from {
+        opacity: 0;
+        transform: translate3d(0, calc(-1 * 100px), 0);
+        transform: translate3d(0, calc(-1 * 100px), 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
