@@ -3,7 +3,8 @@ import Head from "next/head";
 const Meta = ({ title, keywords, description }) => {
     return (
         <Head>
-            <title>Medic specialist - GUMA CONSTANTIN </title>
+            <meta name="robots" content="noindex"></meta>
+            <title></title>
             <meta charSet="utf-8" />
             <meta name="rating" content="general" />
             <meta name="author" content="www" />
